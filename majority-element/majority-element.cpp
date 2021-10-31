@@ -20,23 +20,25 @@ public:
     
     //but extra space is not used here constrasting to last appraoch which used maps(time O(n) and space O(n))
     
-    int majorityElement(vector<int>& nums) {
-        int n= nums.size();
-        sort(nums.begin(),nums.end());
-        int majorityElement = nums[n/2];
-        int frequency=0;
+//     int majorityElement(vector<int>& nums) {
+//         int n= nums.size();
+//         sort(nums.begin(),nums.end());
+//         int majorityElement = nums[n/2];
+//         int frequency=0;
         
-        for(auto a:nums){
-            if(a==majorityElement)
-                frequency++;
-        }
-            if(frequency>n/2)
-                return majorityElement;
-            else
-                return -1;       
+//         for(auto a:nums){
+//             if(a==majorityElement)
+//                 frequency++;
+//         }
+//             if(frequency>n/2)
+//                 return majorityElement;
+//             else
+//                 return -1;       
     
         
-    }
+//     }
+    
+    
 //     //Using Moore Voting Algorithm
 //     int majorityElement(vector<int>& nums) {
         
@@ -51,4 +53,35 @@ public:
         
 //     return nums[majority];
 //     }
+
+    //Same Algorithm (ie Moores Voting Algorithm can also be coded as):
+    //Time Complexity is still same O(n)
+     int majorityElement(vector<int>& nums) {
+         int n=nums.size();
+         int candidate = nums[0];
+         int votes = 0, f=0;
+         
+         for(int i=0;i<n;i++){
+             if(nums[i]==candidate){
+                 votes++;
+             }
+             else{
+                 votes--;
+             }
+             if(votes==0){
+               candidate = nums[i];  
+                 votes=1;
+             }
+         }
+         for(int i=0;i<n;i++){
+             if(nums[i]==candidate)
+                 f++;
+         }
+         if(f>n/2)
+             return candidate;
+         
+         return -1;
+     }
+    
+    
 };
