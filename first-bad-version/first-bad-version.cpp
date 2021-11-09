@@ -3,6 +3,7 @@
 
 class Solution {
 public:
+    //Binary Search for 1st bad version - O(logn)
     int firstBadVersion(int n) {
        int low = 0, high = n, mid;
         while(high-low>1){
