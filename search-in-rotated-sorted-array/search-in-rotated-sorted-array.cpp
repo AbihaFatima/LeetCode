@@ -5,7 +5,7 @@ public:
     we check the mid with start and end -> cause the array is distorted -> so first we want to condition on that. 
     Let’s say the nums[start] is less than the nums[mid] -> we get our new start and end -> the start and mid.
 So we just add one more condition to the already existing binary search conditions. 
-We shift the start and end pointers after we’ve discovered the subarray where we need to shift. TimeComplexity O(N)
+We shift the start and end pointers after we’ve discovered the subarray where we need to shift. TimeComplexity O(logN)
 Here’s the full code:
     */
     int search(vector<int>& nums, int target) {
