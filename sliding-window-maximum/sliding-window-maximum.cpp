@@ -2,7 +2,7 @@ class Solution {
 public:
 //Brute force would take O(n^2) time complexity
     
-//This is the most optimise solution
+//best optimal approach
 //O(N) time complexity and O(k) space complexity (for deque data structure which at max stores k elements)
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
         
