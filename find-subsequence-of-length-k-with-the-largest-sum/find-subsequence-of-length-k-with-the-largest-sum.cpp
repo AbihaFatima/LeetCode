@@ -6,6 +6,10 @@ then reverse sort them
 Now add first k elements in a temporary array of vector of pair format {i,a[i]}
 Now sort this temp and add elements to ans
 */
+    /*
+        Space - O(n) Because storing all the elements in another vector
+        Time - O(n*log(n)) Because sorting is involved
+    */
     vector<int> maxSubsequence(vector<int>& nums, int k) {
         int n = nums.size();
         
