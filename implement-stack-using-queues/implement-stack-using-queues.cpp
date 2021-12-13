@@ -1,8 +1,6 @@
 #include<queue>
 class MyStack {
 public:
-    //Time Complexity : O(N^2)
-    //
     queue<int> q1,q2; 
     
     MyStack() {
