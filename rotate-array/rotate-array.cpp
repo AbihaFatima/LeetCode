@@ -33,3 +33,12 @@ public:
         }
     }
 };
+/*
+PS: 4 lines of code using reverse function\U0001f604\U0001f601 :
+ void rotate(vector<int>& nums, int k) {
+        k %=nums.size();
+        reverse(nums.begin(), nums.end());
+        reverse(nums.begin(), nums.begin()+k);
+        reverse(nums.begin()+k, nums.end());
+    }
+*/
