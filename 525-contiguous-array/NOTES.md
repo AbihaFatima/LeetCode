@@ -9,3 +9,5 @@
 * the map will have sum and indices as key value pair
 * if sum==0 store the update longest subarray and store sum and its index in hashmap
 * Self explanatory code
+* Time Complexity: O(N)
+* Space Complexity: O(N)
