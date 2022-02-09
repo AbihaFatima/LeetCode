@@ -2,6 +2,7 @@
 - Time Complexity: O(N)
 - Space Complexity : O(N)
 <br>
+
 2. Optimised Approach :- Two - Pointer Technique
 - Time Complexity: O(N log N)  //Due to inbuilt sort function
 - Space Complexity : O(1)
