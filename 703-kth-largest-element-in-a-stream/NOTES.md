@@ -1,0 +1,4 @@
+- Time Complexity: O(logk)<br>
+- Space Complexity: O(1) however we're using heaps here<br>
+- Approach:
+- Min heap will be used here as smallest element will be at the top and will be popped.
