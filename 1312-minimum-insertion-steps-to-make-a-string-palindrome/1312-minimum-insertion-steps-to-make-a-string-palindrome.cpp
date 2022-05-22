@@ -23,7 +23,7 @@ public:
         int n=m;
         vector<vector<int>> dp(m+1,vector<int>(n+1,-1));
         int LCS = lcs(s,b,m,n,dp);
-        int ans = ((m-LCS) + (n-LCS))/2;
+        int ans = (m-LCS); //ans would be lenth of string - its LCS(s,rev(s))
         return ans;
     }
 };
