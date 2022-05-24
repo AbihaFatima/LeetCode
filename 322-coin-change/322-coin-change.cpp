@@ -11,7 +11,7 @@ public:
                 if(j==0) t[i][j]=0;
             }
         }
-        //Initializing 2nd row
+        //Initialization of first row and first col
         for(int i=1;i<=n;i++){
             for(int j=1;j<=amount;j++){
                 if(j%coins[i-1]==0){
