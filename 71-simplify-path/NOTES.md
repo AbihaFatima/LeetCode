@@ -1,0 +1,1 @@
+- [Detailed Explanation Here](https://leetcode.com/problems/simplify-path/discuss/1847357/C%2B%2B-oror-Easy-oror-Stack-oror-Simple-oror-Explained-oror-Algorithm) <br>
