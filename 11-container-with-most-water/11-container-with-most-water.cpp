@@ -1,5 +1,8 @@
 class Solution {
 public:
+    //Two-pointer Approach
+    //Time Complexity: O(N)
+    //Space Complexity: O(1)
     int maxArea(vector<int>& height) {
         int maxA=0;
         int n = height.size();
