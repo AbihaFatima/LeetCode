@@ -1,6 +1,7 @@
 ```
 Notes for calculating the blocks index:-
-The problem is to come up with an equation to map (n*n) coordinates to (n) numbers so we can use it as an index into the blocks array.
+The problem is to come up with an equation to map (n*n) coordinates to (n) numbers 
+so we can use it as an index into the blocks array.
 ​
 Our board would look like this:
 ​
@@ -29,3 +30,30 @@ will map to box 0.
 And
 (0,3) (0,4) (0,5)
 (1,3) (1,4) (1,5)
+(2,3) (2,4) (2,5)
+will map to box 1.
+
+And so on.
+
+We can see that for any coordinate (r, c), the column index (c), 
+which ranges from 0-8 should contribute either (0, 1, or 2) to the boxIndex. So we can write this as c/3.
+This is because of integer division:
+{0, 1, 2} / 3 = 0
+{3, 4, 5} / 3 = 1
+{6, 7, 8} / 3 = 2
+
+Also, for any coordinate (r, c), if the column already contributes (0, 1, or 2) to the boxIndex (which has a maximum of 8), 
+then the row index (r) needs to contribute either (0, 3, or 6) to the boxIndex, since this gives all possible numbers from 0 - 8.
+e.g.
+0 + {0, 1, 2} = {0, 1, 2}
+3 + {0, 1, 2} = {3, 4, 5}
+6 + {0, 1, 2} = {6, 7, 8}
+
+Well how do we map {0,1,2,3,4,5,6,7,8} to {0,3,6} ?
+We can use integer division again, but multiply the result by 3
+({0, 1, 2} / 3) * 3 = (0) * 3 = 0
+({3, 4, 5} / 3) * 3 = (1) * 3 = 3
+({6, 7, 8} / 3) * 3 = (2) * 3 = 6
+
+So we have boxIndex = c/3 + r/3*3
+```
