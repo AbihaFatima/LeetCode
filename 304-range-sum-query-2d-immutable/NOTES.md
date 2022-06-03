@@ -1,1 +1,1 @@
-​
+🥂🎈[Detailed Solution here](https://leetcode.com/problems/range-sum-query-2d-immutable/discuss/2104545/O(m*n)-to-O(n)-to-O(1)-Search-Time-oror-C%2B%2B), from TC: _O(n*m)_* to _O(n)_ to _O(1)_ and SC: _O(n*m)_
