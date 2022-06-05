@@ -1,0 +1,1 @@
+🥂🚀[Detailed Solution](https://leetcode.com/problems/n-queens-ii/discuss/1237811/Short-and-Easy-w-Explanation-and-Visualization-or-Backtracking-Explained!) with 4 approaches.
