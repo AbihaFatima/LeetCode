@@ -1,5 +1,7 @@
 class Solution {
 public:
+    //TC: O(NlogN)
+    //SC: O(1)
     int partitionArray(vector<int>& nums, int k) {
         int n = nums.size();
         sort(nums.begin(),nums.end());
