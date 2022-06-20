@@ -1,0 +1,1 @@
+- Both Approaches : Brute-force to optimised solution [here](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/discuss/1615821/C%2B%2B-or-All-approaches-Detailed-explanation-or-Bit-Manipulation) <br>
