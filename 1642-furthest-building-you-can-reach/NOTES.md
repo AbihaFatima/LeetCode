@@ -1,0 +1,1 @@
+- Took inspiration from this [Great Awesome Solution](https://leetcode.com/problems/furthest-building-you-can-reach/discuss/2176644/C%2B%2B-oror-Easy-Solution-oror-Full-Explanation) <br>
