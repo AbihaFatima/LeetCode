@@ -1,0 +1,1 @@
+- [Post with Detailed Expalanation](https://leetcode.com/problems/construct-target-array-with-multiple-sums/discuss/1199207/Reverse-Simulation-using-Max-Heap-or-Easy-Solution-w-Explanation)
