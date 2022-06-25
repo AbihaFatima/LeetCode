@@ -1,0 +1,1 @@
+- For Intuition [Read Here](https://leetcode.com/problems/non-decreasing-array/discuss/2193070/C%2B%2B-oror-Simple-Code-oror-Full-Explanation).
