@@ -1,1 +1,1 @@
-- [Brute-force to optimised approaches.](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/discuss/1294187/C%2B%2B-or-4-Approaches-explained-or-Recursion-DP-Sliding-Window)
+​
