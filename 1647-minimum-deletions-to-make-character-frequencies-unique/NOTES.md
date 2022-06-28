@@ -1,0 +1,1 @@
+- [Detailed Approach + Solution](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/discuss/2207106/C%2B%2B-oror-Easy-Solution-oror-Full-Explanation-oror-Least-Space)
