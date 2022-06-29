@@ -1,0 +1,1 @@
+- [Detailed brute-force Solution](https://leetcode.com/problems/queue-reconstruction-by-height/discuss/2211666/C%2B%2B-oror-DETAILED_EXPLAINATION-oror-OPTIMIZED)
