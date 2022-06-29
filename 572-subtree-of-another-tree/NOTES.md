@@ -1,1 +1,1 @@
-​
+- [Detailed Solution](https://leetcode.com/problems/subtree-of-another-tree/discuss/1160972/C%2B%2B-solution-using-tree-traversal-with-explanation-(explained))
