@@ -10,20 +10,21 @@
  * };
  */
 class Solution {
-    void findNum(TreeNode *root, int temp, int &ans){
+private:
+    int ans=0;
+    void findNum(TreeNode *root, int temp){
         if(root==NULL) return;
         temp = temp*10 + root->val;
         if(root->left==NULL && root->right==NULL){
             ans += temp;
         }
-        findNum(root->left,temp,ans);
-        findNum(root->right,temp,ans);
+        findNum(root->left,temp);
+        findNum(root->right,temp);
     }
 public:
     int sumNumbers(TreeNode* root) {
         if(root==NULL) return 0;
-        int ans=0;
-        findNum(root,0,ans);
+        findNum(root,0);
         return ans;
     }
 };
