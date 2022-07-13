@@ -1,0 +1,1 @@
+[ [C++] Simple Solution using Stack - O(h) Time Complexity ( with Diagrammatic Explanation )](https://leetcode.com/problems/binary-search-tree-iterator/discuss/1430547/C%2B%2B-Simple-Solution-using-Stack-O(h)-Time-Complexity-(-with-Diagrammatic-Explanation-)) <br>
