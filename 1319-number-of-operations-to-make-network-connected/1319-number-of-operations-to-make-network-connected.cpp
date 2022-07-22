@@ -1,11 +1,6 @@
 class Solution {
 public:
-    /*
-    int redundant = edges-((n-1)-(components-1));   //Count redundant edges
-        if(redundant >= (components-1)) //Check if we can join components using redundant edges
-            return components-1;
-        return -1;
-    */
+    //TC: O(V+E)
     void dfs(vector<vector<int>> &adj, vector<bool> &vis, int src)
     {
         vis[src] = true;
