@@ -1,0 +1,1 @@
+- [Awesome Post](https://leetcode.com/problems/merge-intervals/discuss/600013/C%2B%2B-solution-with-detailed-explanation)🚀
