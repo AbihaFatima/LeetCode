@@ -14,6 +14,8 @@ public:
 //     }
     
     //Optimised Approach:
+    //Time Complexity : O(N)
+    //Kadane's Algorithm
     int maxSubArray(vector<int>& nums){
         int maxSum = INT_MIN;
         int currSum = 0;
