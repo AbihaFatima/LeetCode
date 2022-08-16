@@ -1,7 +1,6 @@
 class Solution {
 public:
-    //DP Appraoch - Iterative
-    
+    //DP Appraoch
     vector<vector<int>> ans;
     vector<vector<int>> generate(int n) {
         for(int i=0;i<n;i++){
