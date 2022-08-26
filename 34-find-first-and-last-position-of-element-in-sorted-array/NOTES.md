@@ -1,1 +1,1 @@
-​
+- [Detailed Solution](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/discuss/1608890/Clean-and-easy-oror-c%2B%2B)
