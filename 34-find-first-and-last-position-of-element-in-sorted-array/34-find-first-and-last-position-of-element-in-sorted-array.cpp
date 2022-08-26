@@ -4,7 +4,7 @@ public:
         vector<int>ans(2,-1);
         int n = nums.size();
         int low=0, high=n-1,mid;
-        //To find last occurance by shifting the search window towards left
+        //To find first occurance by shifting the search window towards left
         while(low<=high){
             mid = low + (high-low)/2;
             if(nums[mid] > target){
