@@ -1,0 +1,1 @@
+- [Explanation](https://leetcode.com/problems/optimal-partition-of-string/discuss/2560283/Easy-Understandable-oror-Approach-Explained-oror-Beginner-Friendly)
