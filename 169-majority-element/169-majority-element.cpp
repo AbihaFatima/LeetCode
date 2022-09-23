@@ -21,7 +21,7 @@ public:
     //but extra space is not used here constrasting to last appraoch which used maps(time O(n) and space O(n))
     
 //     int majorityElement(vector<int>& nums) {
-//         int n= nums.size();
+//         int n = nums.size();
 //         sort(nums.begin(),nums.end());
 //         int majorityElement = nums[n/2];
 //         int frequency=0;
