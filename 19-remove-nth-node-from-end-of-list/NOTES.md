@@ -1,0 +1,1 @@
+-[One Pass Solution](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/1164532/Remove-Nth-Node-From-End-of-List-or-Simple-One-Pass-Solution-w-Explanation)
