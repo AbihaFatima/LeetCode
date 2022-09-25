@@ -1,12 +1,11 @@
 class Solution {
 public:
     //Sorting Approach takes O(N logN) time
-    //                          O(1) space, but some sorting algorithms do take up some space
+    //O(1) space, but some sorting algorithms do take up some space
 //     bool isAnagram(string s, string t) {
 //         if(s.size() != t.size()) return false;
 //         sort(s.begin(),s.end());
 //         sort(t.begin(),t.end());
-        
 //         return (s==t);
 //     }
     
