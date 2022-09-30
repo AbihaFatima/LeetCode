@@ -7,7 +7,7 @@ public:
         int n = nums.size();
         int low=0, high=n-1,mid;
     
-        if(n==1){ //base case: to avoid TLE
+        if(n==1){
             return nums[0];
         }
         
