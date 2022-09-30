@@ -1,0 +1,2 @@
+- ```else if(nums[mid] >= nums[high]) low=mid+1; ```
+- Equal '=' sign added to handle this type of test case [3,3,1,3];
