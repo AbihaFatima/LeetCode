@@ -9,7 +9,7 @@ public:
             if(nums[mid] == target){
                 return true;
             }
-            // with duplicates we can have this contdition, just update left & right
+            //for duplicates
             else if(nums[start] == nums[mid] && nums[end]==nums[mid]){
                 start++;
                 end--;  
