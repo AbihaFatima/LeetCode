@@ -18,6 +18,8 @@ public:
     void solve(vector<vector<char>>& b) {
         rows = b.size();
         cols = b[0].size();
+        
+        //Performing dfs on grid border 
         for(int i=0;i<rows;i++){
             dfs(i,0,b);
             dfs(i,cols-1,b);
@@ -26,6 +28,7 @@ public:
             dfs(0,j,b);
             dfs(rows-1,j,b);
         }
+        
         for(int i=0;i<rows;i++){
             for(int j=0;j<cols;j++){
                 if(b[i][j]=='#') 
