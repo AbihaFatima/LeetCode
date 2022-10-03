@@ -22,10 +22,10 @@ public:
             for(int j=0;j<cols;j++){
                 int area =0;
                 if(grid[i][j] == 1){
-                    area=1;
+                    area=0;
                     dfs(i,j,grid,area);
                 }
-                ans = max(ans, area-1);
+                ans = max(ans, area);
             }
         }
         return ans;
