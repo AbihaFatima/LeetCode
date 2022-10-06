@@ -1,2 +1,1 @@
-- [Sol-1](https://leetcode.com/problems/longest-palindromic-substring/discuss/1229225/C%2B%2B-or-O(N2)-time-O(1)-space-or-Without-DP-(longest-palindromic-substring)) <br>
-- [sol-2](https://leetcode.com/problems/longest-palindromic-substring/discuss/1262830/2-simple-C%2B%2B-approaches-or-DP-and-2-pointer-or-With-explanation)
+​
