@@ -20,6 +20,9 @@ public:
             adj[v[0]].push_back(v[1]);
             adj[v[1]].push_back(v[0]);
         }
+        // for(int i=0;i<n;i++){
+        //     adj[connections[i][0]].push_back(connections[i][1]);
+        // }
         vector<bool> visited(n, false);
         int components = 0;
         for(int i=0; i<n; i++)
