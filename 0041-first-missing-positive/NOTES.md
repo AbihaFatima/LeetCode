@@ -1,0 +1,1 @@
+- [Solution](https://leetcode.com/problems/first-missing-positive/discuss/1778385/O(n)-time-or-O(1)-space-or-using-number-as-index-of-hash)
