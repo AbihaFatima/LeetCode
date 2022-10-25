@@ -1,4 +1,4 @@
-// { Driver Code Starts
+//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -80,7 +80,7 @@ Node* buildTree(string str) {
 }
 
 
- // } Driver Code Ends
+// } Driver Code Ends
 /*  Structure of a Binary Tree
 
 struct Node
@@ -100,13 +100,12 @@ class Solution {
   public:
     // Function to get the maximum width of a binary tree.
     int getMaxWidth(Node* root) {
-        if(root==NULL) return 0;
-        queue<Node*>q;
+        int ans=0;
+        queue<Node*> q;
         q.push(root);
-        int answer=0;
-        while(q.size()){
+        while(!q.empty()){
             int count = q.size();
-            answer = max(answer,count);
+            ans = max(ans,count);
             for(int i=0;i<count;i++){
                 Node *curr = q.front();
                 q.pop();
@@ -114,12 +113,13 @@ class Solution {
                 if(curr->right) q.push(curr->right);
             }
         }
-        return answer;
+        return ans;
+        // Your code here
     }
 };
 
 
-// { Driver Code Starts.
+//{ Driver Code Starts.
 
 int main() {
     int t;
@@ -135,4 +135,5 @@ int main() {
     }
     return 0;
 }
-  // } Driver Code Ends
+
+// } Driver Code Ends
