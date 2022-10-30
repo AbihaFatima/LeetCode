@@ -1,7 +1,6 @@
 # Subset Sum Problem
-## Medium 
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">Given an array of non-negative integers, and a value <em>sum</em>, determine if there is a subset of the given set with sum equal to given <em>sum</em>.&nbsp;</span></p>
+## Medium
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array of non-negative integers, and a value <em>sum</em>, determine if there is a subset of the given set with sum equal to given <em>sum</em>.&nbsp;</span></p>
 
 <p><br>
 <span style="font-size:18px"><strong>Example 1:</strong></span></p>
@@ -38,5 +37,4 @@ The driver code itself prints 1, if returned value is true and prints 0 if retur
 1 &lt;= N &lt;= 100</span><br>
 <span style="font-size:18px">1&lt;= arr[i] &lt;= 100<br>
 1&lt;= sum &lt;= 10<sup>5</sup></span></p>
- <p></p>
-            </div>
+</div>
