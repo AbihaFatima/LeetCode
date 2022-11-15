@@ -1,6 +1,6 @@
 class Solution {
 public:
-    //Approach : Dynamic Programming with Tabulation (Bottom up Approach)
+    //Approach : Dynamic Programming - Tabulation (Bottom up Approach)
     //Time Complexity : O(m x n) //m is size of 1st string and n is size of 2nd string
     //Space Complexity : O(m x n)
     int longestCommonSubsequence(string text1, string text2) {
