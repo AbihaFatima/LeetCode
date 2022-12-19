@@ -20,7 +20,7 @@ class Solution {
         int lh = balance(node->left);
         int rh = balance(node->right);
         
-        if(lh == -1 || rh == -1)    //if either of them is -1, we dont have to go further and just return -1
+        if(lh == -1 || rh == -1) //if either of them is -1, we dont have to go further and just return -1
             return -1;
         
         if(abs(lh-rh) > 1)      //abs() gives us the absolute difference of the two heights 
