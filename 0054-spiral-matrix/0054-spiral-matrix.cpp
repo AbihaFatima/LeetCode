@@ -12,13 +12,11 @@ public:
                 ans.push_back(matrix[startRow][j]);
             }   
             startRow++;
-            
             //Now starting from EndCol
             for(int i=startRow; i<=endRow; i++){
                 ans.push_back(matrix[i][endCol]);
             }
             endCol--;
-            
             //Traversing EndRow
             if(endRow >= startRow){
                 for(int j=endCol;j>=startCol;j--){
@@ -26,7 +24,6 @@ public:
                 }
                 endRow--;
             }
-            
             //Traverse startCol
             if(startCol <= endCol){
                 for(int i=endRow; i>= startRow; i--){
@@ -34,7 +31,6 @@ public:
                 }
                 startCol++;
             }
-            
         }
         return ans;
     }
