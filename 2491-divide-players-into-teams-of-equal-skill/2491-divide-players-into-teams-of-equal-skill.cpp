@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //TC:O(NlogN) SC:O(1)
     long long dividePlayers(vector<int>& skill) {
         int i=0, j=size(skill)-1;
         sort(begin(skill),end(skill));
