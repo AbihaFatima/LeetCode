@@ -1,12 +1,13 @@
 class Solution {
 public:
-    int maxProfit(vector<int>& prices) {
-        int Profit = 0;
-        for(int i=1;i<prices.size();i++){
-            if(prices[i]>prices[i-1]){
-                Profit+= (prices[i]-prices[i-1]);
+    int maxProfit(vector<int>& p) {
+        int maxProfit=0;
+        for(int i=0;i<p.size()-1;i++){
+            if(p[i]<p[i+1]){
+                int Profit = p[i+1]-p[i];
+                maxProfit += Profit;
             }
         }
-        return Profit;  
+        return maxProfit;
     }
 };
