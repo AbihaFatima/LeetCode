@@ -11,7 +11,7 @@ public:
             return;
         if (l == 0 && r == 0)
             res.push_back(path);
-        combination(l-1, r, path+'(', res);
+        combination(l-1, r, path+"(", res);
         combination(l, r-1, path+")", res);
     
     }
