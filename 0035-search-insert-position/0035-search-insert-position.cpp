@@ -6,8 +6,7 @@ public:
         if(target > nums[nums.size()-1]) return nums.size();
         if(target < nums[0]) return 0;
         int low=0,mid,high=size(nums)-1;
-        while(low <= high)
-        {
+        while(low <= high){
             mid = low + (high-low)/2;
             if(nums[mid] == target) return mid;
             else if(nums[mid] < target) low = mid + 1;
