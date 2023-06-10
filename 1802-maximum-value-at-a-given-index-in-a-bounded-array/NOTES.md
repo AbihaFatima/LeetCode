@@ -1,0 +1,1 @@
+https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/discuss/1957239/C%2B%2B-Binary-Search-clean-and-concise-code!
