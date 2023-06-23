@@ -1,0 +1,1 @@
+https://leetcode.com/problems/longest-arithmetic-subsequence/discuss/3671745/C%2B%2B-Easy-Solution-With-Explanation.
