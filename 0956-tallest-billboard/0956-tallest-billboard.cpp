@@ -5,7 +5,7 @@ public:
     // Base case: reached the end of rods
     if (index >= n) {
         if (heightDifference == 5000) return 0;  // Balanced billboard with a height difference of 5000
-        return INT_MIN;  // Invalid configuration
+        return INT_MIN; 
     }
     // Check if the result is already computed
     if (dp[index][heightDifference] != INT_MIN) return dp[index][heightDifference];
