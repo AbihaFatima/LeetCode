@@ -1,17 +1,15 @@
 class Solution {
 public:
-    // Time Complexity : O(N)
-    // Kadane's Algorithm
-    int maxSubArray(vector<int>& nums){
-        int maxSum = INT_MIN;
-        int currSum = 0;
-        for(int i=0;i<nums.size();i++){
-            currSum += nums[i];
-            maxSum=max(maxSum,currSum);
-            if(currSum < 0){
-                currSum = 0;
-            }
+    //Kadanes Algo - [tc: O(N)]
+    int maxSubArray(vector<int>& nums) {
+        int n=nums.size();
+        int ans = INT_MIN;
+        int sum=0;
+        for(int i=0;i<n;i++){
+            sum += nums[i];
+            ans = max(ans, sum);
+            sum = sum < 0 ? 0 : sum; 
         }
-        return maxSum;
+        return ans;
     }
 };
