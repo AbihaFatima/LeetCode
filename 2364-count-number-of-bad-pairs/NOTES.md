@@ -4,5 +4,5 @@
 //GoodPair  j-nums[j] == i-nums[i]
 ```
 ​
-so total number of pairs for array = n(n-1)/2
+so total number of pairs for array nC2= n(n-1)/2
 count good pairs then return total-good
