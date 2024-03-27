@@ -1,17 +1,17 @@
 class Solution {
 public:
     int findMin(vector<int>& nums) {
-        int n=size(nums);
-        int start=0,end=n-1,mid;
-        while(start<=end){
-            mid=start+(end-start)/2;
-            //If array is already sorted
+        int start=0, end=nums.size()-1;
+        while(start <= end){
+            int mid = (start+end)/2;
+            //case: array is sorted
             if(nums[start]<=nums[end]) return nums[start];
-            int next=(mid+1)%n, prev=(mid+n-1)%n;
-            if(nums[mid]<nums[prev] and nums[mid]<nums[next]) return nums[mid];
-            else if(nums[start]<=nums[mid]) start=mid+1;
-            else end=mid-1;
+            
+            //case: mid is greater than end means array is rotated and minimum lies on right
+            if(nums[mid] > nums[end]) start=mid+1;
+            
+            else end=mid;
         }
-        return 0;
+        return nums[start];
     }
 };
