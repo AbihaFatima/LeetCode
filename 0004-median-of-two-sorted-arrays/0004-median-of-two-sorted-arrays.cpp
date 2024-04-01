@@ -25,9 +25,9 @@ public:
                 lo = partition1 + 1; // Move right in nums1
             else {
                 if ((n1 + n2) % 2) // Odd total elements in merged array
-                    return static_cast<double>(std::max(l1, l2)); // Single median element from right part
+                    return (double)(max(l1, l2)); // Single median element from right part
                 else // Even total elements in merged array
-                    return (static_cast<double>(std::max(l1, l2)) + std::min(r1, r2)) / 2; // Median of two middle elements
+                    return ((double)(max(l1, l2)) + min(r1, r2)) / 2; // Median of two middle elements
             }
         }
         
