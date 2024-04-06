@@ -1,3 +1,4 @@
+//TC and SC: 2^n
 class Solution {
     void generateSubsets(vector<int>& nums, int currIdx, vector<int>& subsets, vector<vector<int>>& ans){
         if(currIdx >= nums.size()){
