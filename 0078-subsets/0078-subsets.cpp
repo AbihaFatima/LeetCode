@@ -1,26 +1,23 @@
 class Solution {
-public:
-    //Time complexity is O(n)
-    void subSet(int i,vector<int>&nums, vector<int>&temp, vector<vector<int>>&ans){
-        if(i==nums.size()){
-            ans.push_back(temp);
+    void generateSubsets(vector<int>& nums, int currIdx, vector<int>& subsets, vector<vector<int>>& ans){
+        if(currIdx >= nums.size()){
+            ans.push_back(subsets);
+            return;
         }
-        else
-        {
-            //When we include that element in the subset
-            temp.push_back(nums[i]);
-            subSet(i+1,nums,temp,ans);
-            
-            //When we don't include that element in the subset 
-            temp.pop_back(); //backtracking
-            subSet(i+1,nums,temp,ans);
-        }
+        //considering the current value
+        int currVal = nums[currIdx];
+        subsets.push_back(currVal);
+        generateSubsets(nums, currIdx+1, subsets, ans);
+        
+        //Not considering the current value
+        subsets.pop_back();
+        generateSubsets(nums, currIdx+1, subsets, ans);
     }
+public:
     vector<vector<int>> subsets(vector<int>& nums) {
-        int n = nums.size();
-        vector<int> temp;
-        vector<vector<int>> ans;
-        subSet(0, nums, temp, ans);
+        vector<vector<int>> ans; //powerset
+        vector<int>subsets;
+        generateSubsets(nums, 0, subsets, ans);
         return ans;
     }
 };
