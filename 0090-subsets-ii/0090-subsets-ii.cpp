@@ -1,24 +1,24 @@
-//With using sets
+//Without using sets
 class Solution {
 private:
-    void generateSubsetsWithDup(int index, vector<int>& subsets, set<vector<int>>& ans, vector<int>& nums){
-        if(index >= nums.size()){
-            ans.insert(subsets);
-            return;
+    void generateSubsetsWithDup(int index, vector<int>& subsets, vector<vector<int>>& ans, vector<int>& nums){
+        ans.push_back(subsets);//storing all the initial answers
+        for(int i=index; i<nums.size();i++){
+            if(i>index and nums[i]==nums[i-1]) continue; //avoiding duplicates
+            else{
+                subsets.push_back(nums[i]);
+                generateSubsetsWithDup(i+1, subsets, ans, nums);
+                subsets.pop_back();
+            }
         }
-        subsets.push_back(nums[index]);
-        generateSubsetsWithDup(index+1, subsets, ans, nums);
-        
-        subsets.pop_back();
-        generateSubsetsWithDup(index+1, subsets, ans, nums);
+        return;
     }
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-        set<vector<int>> ans;
+        vector<vector<int>> ans;
         vector<int>subsets;
         sort(nums.begin(),nums.end());
         generateSubsetsWithDup(0, subsets, ans, nums);
-        vector<vector<int>> res{ans.begin(),ans.end()};
-        return res;
+        return ans;
     }
 };
