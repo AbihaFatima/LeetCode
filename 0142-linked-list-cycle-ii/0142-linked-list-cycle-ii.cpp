@@ -8,29 +8,21 @@
  */
 class Solution {
 public:
-    //Time Complexity is O(N)
-    //Space complexity is O(1)
-    
     ListNode *detectCycle(ListNode *head) {
-        if (head == NULL || head->next == NULL)
-            return NULL;
-        ListNode *slow = head;
-        ListNode *fast = head;
-        ListNode *temp = head;
-        
-        //Find the collision point
-        while(fast->next != NULL && fast->next->next != NULL){
+        ListNode *slow= head, *fast=head;
+        if(head == NULL) return NULL;
+        while(fast->next != NULL and fast->next->next != NULL){
             slow = slow->next;
             fast = fast->next->next;
-            if(slow==fast){ //Cycle exists
-                while(slow != temp){ //entry(temp) location found
-                    slow = slow->next;
-                    temp = temp->next;
+            if(slow==fast){
+                slow = head;
+                while(slow != fast){
+                    slow= slow->next;
+                    fast = fast->next;
                 }
-                return temp;
+                return slow;
             }
         }
         return NULL;
     }
-
 };
