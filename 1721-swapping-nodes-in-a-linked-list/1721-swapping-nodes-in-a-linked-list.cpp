@@ -11,30 +11,17 @@
 class Solution {
 public:
     ListNode* swapNodes(ListNode* head, int k) {
-        ListNode *firstK = head;
-        ListNode *lastK = head;
-        int len=0,i=1;
+        ListNode *KthNode, *KthFromEnd=head, *curr=head;
+        while(--k) curr=curr->next;
+        KthNode = curr;
         
-        //Finding first Kth node
-        for(firstK=head;i<k;i++){
-            firstK = firstK->next;
+        //gap from KthNode to curr is K
+        //Iterating till curr reaches end which would result KthEndNode be at its correct position
+        while(curr->next){
+            curr=curr->next;
+            KthFromEnd = KthFromEnd->next;
         }
-        
-        i=1;
-        //Finding last Kth node
-        while(lastK!=NULL){
-            lastK = lastK->next;
-            len++;
-        }
-        for(lastK=head;i<len-k+1;i++){
-            lastK=lastK->next;
-        }
-        
-        //Swapping the vals of both nodes
-        int temp = firstK->val;
-        firstK->val = lastK->val;
-        lastK->val = temp;
+        swap(KthNode->val, KthFromEnd->val);
         return head;
-        
     }
 };
