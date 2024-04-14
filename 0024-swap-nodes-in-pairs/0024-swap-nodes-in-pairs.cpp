@@ -8,22 +8,22 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-//TC:O(N) SC:(N) because of recursion
+
+//TC: O(N) SC:O(1)
 class Solution {
-private:
-    ListNode* swapAdjPair(ListNode *head){
-        if(!head or !head->next) return head;
-        ListNode *first=head, *second=head->next;
-        ListNode *tempList = swapAdjPair(second->next);
-        
-        //Swapping logic
-        first->next = tempList;
-        second->next = first;
-            
-        return second;
-    }
 public:
     ListNode* swapPairs(ListNode* head) {
-        return swapAdjPair(head);
+        ListNode *dummy = new ListNode(0);
+        dummy->next = head;
+        ListNode *curr = dummy;
+        while(curr->next and curr->next->next){
+            ListNode *first = curr->next;
+            ListNode *second = curr->next->next;
+            first->next = second->next;
+            second->next = first;
+            curr->next = second;
+            curr = curr->next->next;
+        }
+        return dummy->next;
     }
 };
