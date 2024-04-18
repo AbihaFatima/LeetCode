@@ -14,32 +14,37 @@ public:
 };
 */
 
-//TC: O(N) SC:O(N)
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
-        Node *dummy = new Node(INT_MAX);
-        Node *runner = dummy, *curr=head;
-        unordered_map<Node* , Node*>mp; //to map random pointers to curr node
+        if(head == NULL) return NULL;
+        Node *temp = head;
+        //First Pass creating a temp list pointing to its duplicate nodes
+        while(temp != NULL){
+            Node *newNode = new Node(temp->val);
+            
+            //create A -> A' -> B -> B' -> C -> C'
+            newNode->next = temp->next;
+            temp->next = newNode;
+            temp = newNode->next;
+        }
+        temp = head;
+        //2nd Pass: linking random pointers of original node to their duplicate nodes
+        while(temp!=NULL){
+            temp->next->random = (temp->random)? (temp->random->next) : NULL;
+            temp = temp->next->next;
+        }
+        //3rd pass: seperating the original and cloned list, pointing res to head of cloned list and returning res
+        Node *original = head;
+        Node *clone = head->next;
+        Node *res = head->next;
         
-        //Iterate by creating base list and also storing nodes in map
-        while(curr!=NULL){
-            Node *newNode = new Node(curr->val);
-            runner->next = newNode;
-            mp[curr] = newNode;
-            curr = curr->next;
-            runner = runner->next;
+        while(original!=NULL){
+            original->next = original->next->next;
+            clone->next = (clone->next)?clone->next->next : NULL; //when clone node is last, it has to be pointed to null
+            original = original->next;
+            clone = clone->next;
         }
-        runner = dummy->next;
-        curr = head;
-        //Now connect the nodes to their random pointers
-        while(curr!=NULL){
-            if(curr->random){
-                runner->random = mp[curr->random];
-            }
-            curr = curr->next;
-            runner = runner->next;
-        }
-        return dummy->next;
+        return res;
     }
 };
