@@ -19,6 +19,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/AbihaFatima/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0994-rotting-oranges](https://github.com/AbihaFatima/LeetCode/tree/master/0994-rotting-oranges) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/AbihaFatima/LeetCode/tree/master/1559-detect-cycles-in-2d-grid) |
+| [1765-map-of-highest-peak](https://github.com/AbihaFatima/LeetCode/tree/master/1765-map-of-highest-peak) |
 | [2685-count-the-number-of-complete-components](https://github.com/AbihaFatima/LeetCode/tree/master/2685-count-the-number-of-complete-components) |
 ## Union Find
 |  |
@@ -37,12 +38,14 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/AbihaFatima/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0994-rotting-oranges](https://github.com/AbihaFatima/LeetCode/tree/master/0994-rotting-oranges) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/AbihaFatima/LeetCode/tree/master/1559-detect-cycles-in-2d-grid) |
+| [1765-map-of-highest-peak](https://github.com/AbihaFatima/LeetCode/tree/master/1765-map-of-highest-peak) |
 ## Matrix
 |  |
 | ------- |
 | [0417-pacific-atlantic-water-flow](https://github.com/AbihaFatima/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0994-rotting-oranges](https://github.com/AbihaFatima/LeetCode/tree/master/0994-rotting-oranges) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/AbihaFatima/LeetCode/tree/master/1559-detect-cycles-in-2d-grid) |
+| [1765-map-of-highest-peak](https://github.com/AbihaFatima/LeetCode/tree/master/1765-map-of-highest-peak) |
 ## Topological Sort
 |  |
 | ------- |
