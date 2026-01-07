@@ -9,6 +9,7 @@
 | [0130-surrounded-regions](https://github.com/AbihaFatima/LeetCode/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/AbihaFatima/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AbihaFatima/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/AbihaFatima/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AbihaFatima/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0797-all-paths-from-source-to-target](https://github.com/AbihaFatima/LeetCode/tree/master/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/AbihaFatima/LeetCode/tree/master/0841-keys-and-rooms) |
@@ -21,6 +22,7 @@
 | [0130-surrounded-regions](https://github.com/AbihaFatima/LeetCode/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/AbihaFatima/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AbihaFatima/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/AbihaFatima/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AbihaFatima/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0797-all-paths-from-source-to-target](https://github.com/AbihaFatima/LeetCode/tree/master/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/AbihaFatima/LeetCode/tree/master/0841-keys-and-rooms) |
@@ -41,6 +43,7 @@
 | ------- |
 | [0207-course-schedule](https://github.com/AbihaFatima/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AbihaFatima/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/AbihaFatima/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0797-all-paths-from-source-to-target](https://github.com/AbihaFatima/LeetCode/tree/master/0797-all-paths-from-source-to-target) |
 | [0841-keys-and-rooms](https://github.com/AbihaFatima/LeetCode/tree/master/0841-keys-and-rooms) |
 | [1971-find-if-path-exists-in-graph](https://github.com/AbihaFatima/LeetCode/tree/master/1971-find-if-path-exists-in-graph) |
@@ -49,6 +52,7 @@
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/AbihaFatima/LeetCode/tree/master/0130-surrounded-regions) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/AbihaFatima/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AbihaFatima/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0994-rotting-oranges](https://github.com/AbihaFatima/LeetCode/tree/master/0994-rotting-oranges) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/AbihaFatima/LeetCode/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -57,6 +61,7 @@
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/AbihaFatima/LeetCode/tree/master/0130-surrounded-regions) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/AbihaFatima/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AbihaFatima/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0994-rotting-oranges](https://github.com/AbihaFatima/LeetCode/tree/master/0994-rotting-oranges) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/AbihaFatima/LeetCode/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -66,8 +71,17 @@
 | ------- |
 | [0207-course-schedule](https://github.com/AbihaFatima/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AbihaFatima/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/AbihaFatima/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Backtracking
 |  |
 | ------- |
 | [0797-all-paths-from-source-to-target](https://github.com/AbihaFatima/LeetCode/tree/master/0797-all-paths-from-source-to-target) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/AbihaFatima/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+## Memoization
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/AbihaFatima/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 <!---LeetCode Topics End-->
