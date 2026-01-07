@@ -9,11 +9,11 @@ class Solution {
 public:
     vector<pair<int,int>> dir={{1,0},{-1,0},{0,1},{0,-1}};
     int dfs(int i, int j, vector<vector<int>>& matrix, vector<vector<int>>& dp){
-        //base case if the lenth from that cell to end is already computed return
+        //base case if the length from that cell to end is already computed return
         if(dp[i][j] > 0) return dp[i][j];
 
         int path_len = 1;
-        //explaore its neighbours
+        //explore its neighbours
         for(auto d: dir){
             int newX = i + d.first;
             int newY = j + d.second;
