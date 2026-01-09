@@ -11,6 +11,7 @@
  */
 class Solution {
 public:
+    //balanced bst tc: O(H) 
     TreeNode* insertIntoBST(TreeNode* root, int val) {
         //so if you have reached till end return the new node with value
         if(!root){
