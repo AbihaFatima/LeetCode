@@ -89,8 +89,14 @@
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0701-insert-into-a-binary-search-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0701-insert-into-a-binary-search-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0701-insert-into-a-binary-search-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0701-insert-into-a-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0701-insert-into-a-binary-search-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0701-insert-into-a-binary-search-tree) |
 <!---LeetCode Topics End-->
