@@ -9,6 +9,7 @@
 | [0130-surrounded-regions](https://github.com/AbihaFatima/LeetCode/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/AbihaFatima/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AbihaFatima/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/AbihaFatima/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AbihaFatima/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0797-all-paths-from-source-to-target](https://github.com/AbihaFatima/LeetCode/tree/master/0797-all-paths-from-source-to-target) |
@@ -84,4 +85,12 @@
 |  |
 | ------- |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/AbihaFatima/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+## Tree
+|  |
+| ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 <!---LeetCode Topics End-->
