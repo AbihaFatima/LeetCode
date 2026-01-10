@@ -6,6 +6,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0130-surrounded-regions](https://github.com/AbihaFatima/LeetCode/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/AbihaFatima/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AbihaFatima/LeetCode/tree/master/0210-course-schedule-ii) |
@@ -88,15 +89,18 @@
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0701-insert-into-a-binary-search-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0701-insert-into-a-binary-search-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0701-insert-into-a-binary-search-tree) |
 <!---LeetCode Topics End-->
