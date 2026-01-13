@@ -1,6 +1,7 @@
 class Solution {
 public:
 //If one value appears n times in an array of size 2n, at least two occurrences being near each other. 
+//TC: O(N) SC:O(1)
 
     int repeatedNTimes(vector<int>& nums) {
         int len = nums.size();
