@@ -56,6 +56,7 @@
 | [0130-surrounded-regions](https://github.com/AbihaFatima/LeetCode/tree/master/0130-surrounded-regions) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/AbihaFatima/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/AbihaFatima/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/AbihaFatima/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0994-rotting-oranges](https://github.com/AbihaFatima/LeetCode/tree/master/0994-rotting-oranges) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/AbihaFatima/LeetCode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1765-map-of-highest-peak](https://github.com/AbihaFatima/LeetCode/tree/master/1765-map-of-highest-peak) |
@@ -103,4 +104,8 @@
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/AbihaFatima/LeetCode/tree/master/0701-insert-into-a-binary-search-tree) |
+## Hash Table
+|  |
+| ------- |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/AbihaFatima/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 <!---LeetCode Topics End-->
